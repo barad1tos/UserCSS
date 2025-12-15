@@ -1,11 +1,11 @@
 /* ==UserStyle==
 @name        Last.fm
-@namespace   gomgon
-@version     2.7.1
-@homepageURL https://github.com/gomgon/UserCSS
-@updateURL   https://raw.githubusercontent.com/gomgon/UserCSS/master/last-fm.user.css
+@namespace   barad1tos
+@version     2.8.1
+@homepageURL https://github.com/barad1tos/tool-custom-css
+@updateURL   https://raw.githubusercontent.com/barad1tos/tool-custom-css/master/last-fm.user.css
 @license     CC-BY-SA-4.0
-@author      gomgon
+@author      barad1tos (forked from gomgon)
 @advanced text user-css "Your css code" ""
 @advanced dropdown compact-mode "Compact mode"{
 No "No" <<<EOT
@@ -50,17 +50,17 @@ margin-top: -16px;
 }
 } EOT;
 }
-@advanced color bg "Background" #1E1E1E
-@advanced color scrobbling-now-bg "Scrobbling now background" #1E1E1E
-@advanced color bg-lighter "Lighter elements" #282828
-@advanced color border-color "Borders color" #323232
-@advanced color secondary-button "Secondary buttons" #323232
-@advanced color secondary-button-H "Secondary buttons hover" #505050
-@advanced color main-text "Main text" #CCCCCC
-@advanced color button-text "Buttons text" #EEEEEE
+@advanced color bg "Background" #1F2430
+@advanced color scrobbling-now-bg "Scrobbling now background" #1F2430
+@advanced color bg-lighter "Lighter elements" #242936
+@advanced color border-color "Borders color" #171B24
+@advanced color secondary-button "Secondary buttons" #2D3441
+@advanced color secondary-button-H "Secondary buttons hover" #3D4752
+@advanced color main-text "Main text" #CCCAC2
+@advanced color button-text "Buttons text" #CCCAC2
 @advanced color button-text-H "Buttons text hover" #FFFFFF
-@advanced color color-global "Main Color" #5C809E
-@advanced color color-global-hover "Main color lighter" #77A6CC
+@advanced color color-global "Main Color" #73D0FF
+@advanced color color-global-hover "Main color lighter" #95E6CB
 @advanced dropdown font "Use old font"{
 No "No" <<<EOT
 EOT;
@@ -2459,6 +2459,14 @@ margin-top:0px;
 .user-dashboard-catalogue-item .user-dashboard-comparison{
 top: -68px;
 }
+}
+/* Period toggle (This week/month/year) */
+.tab-container{
+background:/*[[bg-lighter]]*/!important;
+}
+button.tab--selected{
+background:#f4b909!important;
+color:#1F2430!important;
 }
 /*[[user-css]]*/
 }
