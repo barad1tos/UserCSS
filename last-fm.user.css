@@ -2,8 +2,8 @@
 @name        Last.fm
 @namespace   barad1tos
 @version     2.8.1
-@homepageURL https://github.com/barad1tos/tool-custom-css
-@updateURL   https://raw.githubusercontent.com/barad1tos/tool-custom-css/master/last-fm.user.css
+@homepageURL https://github.com/barad1tos/UserCSS
+@updateURL   https://raw.githubusercontent.com/barad1tos/UserCSS/master/last-fm.user.css
 @license     CC-BY-SA-4.0
 @author      barad1tos (forked from gomgon)
 @advanced text user-css "Your css code" ""
